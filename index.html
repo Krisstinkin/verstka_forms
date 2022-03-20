@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Верстка формы</title>
+        
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <link rel="stylesheet" href="icons/css/all.css"/>
+
+               
+
+ </head>
+
+    <body>
+
+        <!--gray background-->
+
+        <div class="bg_gray">
+        
+            <div class="mx_auto_flex">
+                
+                <div class="rounded">  
+
+                    <div class="foto">
+                        <img class="image" src="images/mountains-1.jpg" alt="mountain">
+                    </div>
+
+                   <!--section with forms-->
+
+
+                    <div class="forms">
+
+                        <form action="https://www.bit-by-bit.ru/form-submit">
+                            
+                            <!--the first part-->
+
+                            <div>
+                                <h3 class="text">Регистрация</h3>
+                            </div>
+
+                            <div class="mt-6">
+
+                                <div class="col_span_3">
+                                    <label for="firstname">Имя</label>
+                                    <div class="mt_1">
+                                        <input type="text" class="firstform" name="firstname" />
+                                    </div>
+                                </div>
+
+                                <div class="col_span_3">
+                                    <label for="lastname">Фамилия</label>
+                                    <div class="mt_1">
+                                        <input type="text" class="firstform" name="lastname" />
+                                    </div>
+                                </div>
+
+                                <div class="col_span_3">
+                                    <label for="email">Email</label>
+                                    <div class="mt_1">
+                                        <input type="text" class="firstform" name="email" />
+                                    </div>
+                                </div>
+
+                                <div class="col_span_3">
+                                    <label for="phone">Телефон</label>
+                                    <div class="mt_1">
+                                        <input type="text" class="firstform" name="phone" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            
+                            
+                            <div class="pt-8">
+
+                                <!--the second part-->
+                                
+                                <div>
+                                    <h3 class="text_2">Адрес доставки</h3>
+                                </div>
+
+                                <div class="mt-6">
+
+                                    <div class="col_span_2">
+                                        <label for="country">Страна</label>
+                                        <div class="mt_1">
+                                            <select autocomplete="country-name" class="secondform" id="country" name="country">
+                                                <option>Россия</option>
+                                                <option>Беларусь</option>
+                                                <option>Казахстан</option>
+                                                <option>Польша</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="col_span_2">
+                                        <label for="city">Город</label>
+                                        <div class="mt_1">
+                                            <input type="text" autocomplete="address-level2" class="thirdform" id="city" name="city">
+                                        </div>
+                                    </div>
+
+                                    <div class="col_span_2">
+                                        <label for="postalcode">Почтовый индекс</label>
+                                        <div class="mt_1">
+                                            <input type="text" autocomplete="address-level2" class="thirdform" id="postalcode" name="postalcode">
+                                        </div>
+                                    </div>
+
+                                    <div class="col_span_2">
+                                        <label for="streetaddress">Адрес доставки (улица, дом, квартира)</label>
+                                        <div class="mt_1">
+                                            <input type="text" autocomplete="address-level2" class="fifthform" id="streetaddress" name="streetaddress">
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+
+                            <!--the third part-->
+
+                            <div class="pt-8">
+                                
+                                <div>
+                                    <h3 class="text_2">Уведомлять об акциях и скидках</h3>
+                                    <p class="text_3">Мы не будем отправлять спам, но напишем, когда поступят новые товары или будет большая распродажа.</p>
+                                </div>
+
+                            </div>
+
+                            <div>
+                               
+                                <div class="mt-4">
+
+                                    <div class="flex_items_center">
+
+                                        <div class="flex"><input type="checkbox" class="text_4" id="emailnotification" name="emailnotification"></div>
+                                        <div class="flex"><label class="label" for="emailnotification">По Email</label></div>
+                                                
+                                    </div>
+
+                                    <div class="flex_items_center">
+
+                                        <div class="flex"><input type="checkbox" class="text_4" id="smsnotification" name="smsnotification"></div>
+                                        <div class="flex"><label class="label" for="smsnotification">По SMS</label></div>
+                                                
+                                    </div>
+
+                                    <div class="flex_items_center">
+
+                                        <div class="flex"><input type="checkbox" class="text_4" id="pushnotification" name="pushnotification"></div>
+                                        <div class="flex"><label class="label" for="pushnotification">Push-уведомления в приложении</label></div>
+                                                
+                                    </div>
+
+                                 </div>
+                                
+
+                            </div>
+
+
+                           <!--the button account-->
+
+                            <div class="pt_5">
+
+                                <div class="flex_justify_end">
+                                    <button class="button" type="submit">Создать аккаунт</button>
+                                </div>
+
+                            </div>
+
+
+                    
+                        </form>
+
+
+                    </div>
+
+
+                </div>
+            
+            </div>
+
+
+        </div>
+       
+  
+    </body>
+
+ </html>

@@ -1,0 +1,266 @@
+.html {
+	--border_color: #e5e5e5;
+	--border_color_forms: #d6d6d6;
+	--zagolovok_color: #171717;
+	--primary_color: #404040;
+} 
+
+body {
+	font-family: sans-serif;
+}
+
+.bg_gray {
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-color: var(--border_color);
+	padding-bottom: 80px;
+	padding-top: 80px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.mx_auto_flex {
+	justify-content: center;
+	margin: auto;
+	width: 1024px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.rounded {
+	border-color: var(--border_color);
+	border-radius: 16px;
+	border-style: solid;
+	display: flex;
+	box-shadow: 0px 20px 25px 0px #d4d4d4; 
+	overflow: hidden;
+	height: 900px;
+}
+
+.foto {
+	display: flex;
+	overflow: hidden;
+	width: 75%;	
+}
+
+.forms {
+	border-style: solid;
+	border-color: var(--border_color);
+	background-color: white;
+	padding: 40px;
+}
+
+.text {
+	box-sizing: border-box;
+    font-weight: 700;
+    color: #0284c7;
+	display: block;
+	font-size: 24px;
+}
+
+.mt-6 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.col_span_3 {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--primary_color);
+	padding-bottom: 8px;
+	margin-top: 16px;
+}
+
+.firstform {
+	background-color: white;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 8px;
+	margin-right: 12px;
+	margin-top: 6px;
+	text-align: start;
+	width: 240px;
+	outline-color: #0284c7;
+	border: 1px solid #d6d3d1;
+	width: 80%;
+}
+
+.pt-8 {
+	border-color: #d6d3d1;
+	border-style: solid;
+	border-top-width: 1px;
+	box-sizing: border-box;
+	display: block;
+	margin-top: 32px;
+	padding-top: 32px;
+}
+
+.text_2 {
+	box-sizing: border-box;
+	color: var(--zagolovok_color);
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.col_span_2 {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--primary_color);
+	padding-bottom: 8px;
+	margin-top: 16px;
+}
+
+.secondform {
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 40px;
+	padding-top: 8px;
+	margin-right: 12px;
+	text-align: start;
+	width: 155px;
+	outline-color: #0284c7;
+	border: 1px solid #d6d3d1;
+	margin-top: 6px;
+	color: var(--primary_color);
+}
+
+.thirdform {
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 40px;
+	padding-top: 8px;
+	margin-right: 12px;
+	text-align: start;
+	width: 95px;
+	outline-color: #0284c7;
+	border: 1px solid #d6d3d1;
+	margin-top: 6px;
+	color: var(--primary_color);
+}
+
+.fifthform {
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 40px;
+	padding-top: 8px;
+	margin-right: 12px;
+	text-align: start;
+	width: 155%;
+	outline-color: #0284c7;
+	border: 1px solid #d6d3d1;
+	margin-top: 6px;
+	color: var(--primary_color);
+}
+
+.text_3 {
+	box-sizing: border-box;
+	color: #737373;
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.mt-4 {
+	margin-top: 16px;
+	display: inline-block;
+}
+
+.flex_items_center {
+	margin-top: 16px;
+	
+}
+
+.text_4 {
+	box-sizing: border-box;
+	color: var(--primary_color);
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+		  
+}
+
+.label {
+	display: flex;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 8px;
+	color: #737373;
+	text-align: center;
+  	
+}
+
+.checkbox {
+	border-color: #f5f5f5;
+	border-style: solid;
+	color: #0284c7;
+	display: flex;
+	font-size: 14px;
+	font-weight: 400;
+	width: 16px;
+	outline: none;
+}
+
+.flex {
+	display: inline-block;
+	
+}
+
+.pt_5 {
+	border-color: #d6d3d1;
+	border-style: solid;
+	border-top-width: 1px;
+	box-sizing: border-box;
+	display: block;
+	margin-top: 32px;
+	padding-top: 32px;
+}
+
+.flex_justify_end {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button {
+	align-items: flex-start;
+	background-color: #0ea5e9;
+	border-radius: 6px;
+	box-sizing: border-box;
+	display: flex;
+	font-size: 14px;
+	font-weight: 700;
+	justify-content: center;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 8px;
+	text-align: center;
+	width: 496px;
+	border: none;
+	color: white;
+}
+
+.button:hover {
+    background-color: #0284c7;
+}
+
+
+
+
